@@ -1,0 +1,25 @@
+@import'/node_modules/bootstrap/dist/css/bootstrap.css';
+@import "bootstrap-icons/font/bootstrap-icons";
+body{
+    background-color:  #0F0F0F;
+    color: #00FFFF;
+}
+.card{
+    background-color:  #0F0F0F;
+    color: #00FFFF;
+}
+a{
+    color: #00FFFF;
+    width: 40px;
+}
+#tt::after{
+    content: "|";
+    color: gray;
+    animation: type 1s infinite;  
+    opacity: 0;
+}
+@keyframes type {
+    0%,100%{opacity: 1;}
+    50%{opacity: 0;}
+    
+}
